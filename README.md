@@ -18,7 +18,7 @@ You will need the following components:
 5. Review ADC: use potentiometer input to control a game activity.
 
 ### SpaceInvaders Project Guidlines
-- Start with SpaceInvaders.c, comment out the code not implemented inside supper loop.
+- Start with SpaceInvaders.c, comment out the code not implemented inside super loop.
 - Implement using PLL to generate an 80MHz system clock.
 - Implement beginning prompt and game over prompt: press sw1 will display the beginning prompt, press sw2 will display the ending prompt.
 - Use SysTick timer with interrupt enabled to control 10Hz screen refresh.
