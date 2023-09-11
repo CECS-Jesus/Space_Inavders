@@ -1,7 +1,5 @@
 # Space_Invaders
 
-### By Jesus Perez and Kevin Martinez
-
 ## Preparation
 You will need the following components:
 - LaunchPad
