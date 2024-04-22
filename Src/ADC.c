@@ -41,5 +41,5 @@ void FIRFilter(uint16_t *ain2) {
 	uint16_t ain2newest;
 	ADC_In(&ain2newest);                  // sample AIN2(PE1)
 	*ain2 = (ain2newest + ain2previous) / 2; // y(n) = (x(n) + x(n-1))/2
-  ain2previous = ain2newest;
+  	ain2previous = ain2newest;
 }
