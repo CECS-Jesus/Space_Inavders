@@ -7,17 +7,17 @@
 #include "Nokia5110.h"
 
 /* Define variables */
-#define ENEMY_WIDTH 	18
-#define ENEMY_HEIGHT 	10
-#define MAX_ENEMYX 		MAX_X-ENEMY_WIDTH
-#define NUM_ENEMY 		3
-#define PLAYERW     	((unsigned char)PlayerShip0[18])
-#define PLAYERH 			((unsigned char)PlayerShip0[22])
-#define LASERW      	2
-#define LASERH      	9
-#define FAST					3
-#define MEDIUM				2
-#define SLOW					1
+#define ENEMY_WIDTH 	  18
+#define ENEMY_HEIGHT 	  10
+#define MAX_ENEMYX 		  MAX_X-ENEMY_WIDTH
+#define NUM_ENEMY 		  3
+#define PLAYERW     	  ((unsigned char)PlayerShip0[18])
+#define PLAYERH 			  ((unsigned char)PlayerShip0[22])
+#define LASERW      	  2
+#define LASERH      	  9
+#define FAST					  3
+#define MEDIUM				  2
+#define SLOW					  1
 
 /* Struct(s) */
 typedef struct {
